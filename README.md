@@ -8,7 +8,7 @@ An end-to-end machine learning project that classifies SMS messages as **Spam** 
 ## 🚀 Live Demo
 
 Try the interactive app here:  
-👉 [SMS Spam Classifier on Hugging Face Spaces](https://huggingface.co/spaces/yourusername/sms-spam-classifier)
+👉 [SMS Spam Classifier on Hugging Face Spaces](https://huggingface.co/spaces/sushanth-ksg/SMS-spam-classifier)
 
 ---
 
@@ -44,4 +44,23 @@ It takes a raw SMS message and predicts whether it's spam using a simple web int
 ---
 
 ## 📂 Project Structure
+sms-spam-classifier/
+│
+├── app.py # Gradio interface and prediction logic
+├── train_model.py # Script to train model and save .pkl files
+├── text_utils.py # Custom text preprocessing logic
+├── model.pkl # Trained Naive Bayes model
+├── vectorizer.pkl # Fitted TF-IDF vectorizer
+├── spam.csv # Dataset
+└── requirements.txt # Python dependencies
 
+📚 Acknowledgements
+UCI SMS Spam Collection Dataset
+
+Gradio – for the awesome UI framework
+
+Hugging Face Spaces – for free model hosting
+
+🙋‍♂️ Author
+Sushanth KSG
+📧 ksgsushanth@gmail.com
