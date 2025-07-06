@@ -47,12 +47,19 @@ It takes a raw SMS message and predicts whether it's spam using a simple web int
 sms-spam-classifier/
 │
 ├── app.py # Gradio interface and prediction logic
+
 ├── train_model.py # Script to train model and save .pkl files
+
 ├── text_utils.py # Custom text preprocessing logic
+
 ├── model.pkl # Trained Naive Bayes model
+
 ├── vectorizer.pkl # Fitted TF-IDF vectorizer
+
 ├── spam.csv # Dataset
+
 └── requirements.txt # Python dependencies
+
 
 📚 Acknowledgements
 UCI SMS Spam Collection Dataset
