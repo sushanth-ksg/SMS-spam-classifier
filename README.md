@@ -59,15 +59,15 @@ sms-spam-classifier/
 ├── spam.csv # Dataset
 
 └── requirements.txt # Python dependencies
+---
 
-
-📚 Acknowledgements
+## 📚 Acknowledgements
 UCI SMS Spam Collection Dataset
 
 Gradio – for the awesome UI framework
 
 Hugging Face Spaces – for free model hosting
-
-🙋‍♂️ Author
+---
+## 🙋‍♂️ Author
 Sushanth KSG
 📧 ksgsushanth@gmail.com
